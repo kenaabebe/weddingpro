@@ -19,6 +19,8 @@ const INITIAL_IMAGES = [
   { id: 8, url: '/wedding8.jpg', alt: 'Bridesmaids' },
   { id: 9, url: '/wedding9.jpg', alt: 'Groomsmen' },
   { id: 10, url: '/wedding10.jpg', alt: 'The reception' },
+   { id: 11, url: '/wedding11.jpg', alt: 'The church' },
+    { id: 12, url: '/wedding12.jpg', alt: 'The recep' },
 ];
 
 export default function App() {
@@ -256,7 +258,6 @@ export default function App() {
               <Camera className="w-5 h-5 text-gold/40 mb-4" />
               <h3 className="text-[10px] uppercase tracking-[0.6em] text-stone-400 font-medium">The Gallery</h3>
               <label className="mt-4 cursor-pointer group">
-                <span className="text-[9px] uppercase tracking-widest text-sage border-b border-sage/30 group-hover:border-sage transition-all">Add Photos</span>
                 <input 
                   type="file" 
                   multiple 
@@ -318,7 +319,9 @@ export default function App() {
       <footer className="py-32 bg-stone-950 text-white px-6 text-center border-t border-white/5">
         <div className="max-w-7xl mx-auto">
           <div className="text-2xl font-serif italic mb-8 tracking-wide">Teddy & Yadi</div>
-          <p className="text-stone-500 text-[10px] uppercase tracking-[0.4em] mb-16 font-light">Thank you for being part of our journey</p>
+          <p className="text-stone-500 text-[10px] uppercase tracking-[0.4em] mb-16 font-light">Thank you for being part of our journey 
+            2026 Tewudros Bulo & Yadani Abebe Wedding. Addis Ababa.Ethiopia
+          </p>
           
           <div className="flex justify-center space-x-8 mb-20">
             <div className="group cursor-pointer">
@@ -329,7 +332,7 @@ export default function App() {
           </div>
           
           <div className="h-[1px] w-20 bg-white/10 mx-auto mb-12"></div>
-          <p className="text-stone-600 text-[9px] uppercase tracking-[0.3em] font-light">© 2026 Teddy & Yadi Wedding. Addis Ababa.Ethiopia</p>
+          <p className="text-stone-600 text-[9px] uppercase tracking-[0.3em] font-light">Copy Right© 2026 Developed By Kena Abebe</p>
         </div>
       </footer>
 
