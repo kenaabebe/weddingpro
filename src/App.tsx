@@ -9,18 +9,18 @@ import { X, ChevronLeft, ChevronRight, Heart, Calendar, MapPin, Camera, Menu } f
 
 // Gallery images - initial set
 const INITIAL_IMAGES = [
-   { id: 1, url: '/wedding1.jpg', alt: 'Teddy and Yadani walking' },
-  { id: 2, url: '/wedding2.jpg', alt: 'The wedding rings' },
-  { id: 3, url: '/wedding3.jpg', alt: 'Yadani getting ready' },
-  { id: 4, url: '/wedding4.jpg', alt: 'The ceremony' },
-  { id: 5, url: '/wedding5.jpg', alt: 'First dance' },
-  { id: 6, url: '/wedding6.jpg', alt: 'Sunset portraits' },
-  { id: 7, url: '/wedding7.jpg', alt: 'Wedding cake' },
-  { id: 8, url: '/wedding8.jpg', alt: 'Bridesmaids' },
-  { id: 9, url: '/wedding9.jpg', alt: 'Groomsmen' },
-  { id: 10, url: '/wedding10.jpg', alt: 'The reception' },
-   { id: 11, url: '/wedding11.jpg', alt: 'The church' },
-    { id: 12, url: '/wedding12.jpg', alt: 'The recep' },
+   { id: 1, url: '/wedding1.jpg',  },
+  { id: 2, url: '/wedding2.jpg', alt: 'Sunset portraits' },
+  { id: 3, url: '/wedding3.jpg',  },
+  { id: 4, url: '/wedding4.jpg',  },
+  { id: 5, url: '/wedding5.jpg', },
+  { id: 6, url: '/wedding6.jpg',  },
+  { id: 7, url: '/wedding7.jpg', },
+  { id: 8, url: '/wedding8.jpg',  },
+  { id: 9, url: '/wedding9.jpg',  },
+  { id: 10, url: '/wedding10.jpg',  },
+   { id: 11, url: '/wedding11.jpg',  },
+    { id: 12, url: '/wedding12.jpg',  },
 ];
 
 export default function App() {
@@ -200,7 +200,7 @@ export default function App() {
             <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-12 text-[11px] tracking-[0.3em] font-light opacity-90">
               <div className="flex items-center">
                 <Calendar className="w-3.5 h-3.5 mr-3 text-gold" />
-                <span>SEPTEMBER 24, 2026</span>
+                <span>MAY 2, 2026</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-3.5 h-3.5 mr-3 text-gold" />
@@ -236,6 +236,10 @@ export default function App() {
             transition={{ duration: 1.2 }}
           >
             <Heart className="w-6 h-6 text-gold mx-auto mb-10 opacity-60" />
+             <h2 className="text-3xl md:text-5xl font-serif italic mb-12 text-stone-800 leading-tight">
+              "Because he hath set his love upon me, therefore will I deliver him: I will set him on high because he hath known my name.
+   Psalms 91:14"
+            </h2>
             <h2 className="text-3xl md:text-5xl font-serif italic mb-12 text-stone-800 leading-tight">
               "In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine."
             </h2>
@@ -320,7 +324,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto">
           <div className="text-2xl font-serif italic mb-8 tracking-wide">Teddy & Yadi</div>
           <p className="text-stone-500 text-[10px] uppercase tracking-[0.4em] mb-16 font-light">Thank you for being part of our journey 
-            2026 Tewudros Bulo & Yadani Abebe Wedding. Addis Ababa.Ethiopia
+            2026 Tewudros Bulo & Yadeni Abebe Wedding. Addis Ababa.Ethiopia
           </p>
           
           <div className="flex justify-center space-x-8 mb-20">
@@ -332,7 +336,7 @@ export default function App() {
           </div>
           
           <div className="h-[1px] w-20 bg-white/10 mx-auto mb-12"></div>
-          <p className="text-stone-600 text-[9px] uppercase tracking-[0.3em] font-light">Copy Right© 2026 Developed By Kena Abebe</p>
+          <p className="text-stone-600 text-[9px] uppercase tracking-[0.3em] font-light">All rights reserved.Copy Right© 2026 Kena Abebe</p>
         </div>
       </footer>
 
