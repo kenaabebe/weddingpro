@@ -10,7 +10,7 @@ import { X, ChevronLeft, ChevronRight, Heart, Calendar, MapPin, Camera, Menu } f
 // Gallery images - initial set
 const INITIAL_IMAGES = [
    { id: 1, url: '/wedding1.jpg',  },
-  { id: 2, url: '/wedding2.jpg', alt: 'Sunset portraits' },
+  { id: 2, url: '/wedding2 (2).jpg',  },
   { id: 3, url: '/wedding3.jpg',  },
   { id: 4, url: '/wedding4.jpg',  },
   { id: 5, url: '/wedding5.jpg', },
@@ -21,6 +21,10 @@ const INITIAL_IMAGES = [
   { id: 10, url: '/wedding10.jpg',  },
    { id: 11, url: '/wedding11.jpg',  },
     { id: 12, url: '/wedding12.jpg',  },
+     { id: 13, url: '/wedding13.jpg',  },
+      { id: 14, url: '/wedding14.jpg',  },
+       { id: 15, url: '/wedding15.jpg',  },
+    
 ];
 
 export default function App() {
